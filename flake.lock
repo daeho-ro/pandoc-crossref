@@ -121,15 +121,15 @@
     "hackage": {
       "flake": false,
       "locked": {
-        "lastModified": 1779035872,
-        "narHash": "sha256-cF9LBR+dZRtBwdDWoq075kL3qHKFdFS9vDFhEMXRTWo=",
-        "owner": "lierdakil",
+        "lastModified": 1785230209,
+        "narHash": "sha256-sRm9UyWb67sGgntO2y5zxh5EEUdbbOHfK+21w1cv83c=",
+        "owner": "input-output-hk",
         "repo": "hackage.nix",
-        "rev": "7c6146b094594a58a1f9076036561877e68d1233",
+        "rev": "1e75f81eaee17548426ae76039c339b2070a95a9",
         "type": "github"
       },
       "original": {
-        "owner": "lierdakil",
+        "owner": "input-output-hk",
         "repo": "hackage.nix",
         "type": "github"
       }
@@ -175,7 +175,9 @@
         "cabal-36": "cabal-36",
         "cardano-shell": "cardano-shell",
         "flake-compat": "flake-compat",
-        "hackage": "hackage",
+        "hackage": [
+          "hackage"
+        ],
         "hackage-for-stackage": "hackage-for-stackage",
         "hackage-internal": "hackage-internal",
         "hls": "hls",
@@ -605,6 +607,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "hackage": "hackage",
         "haskellNix": "haskellNix",
         "nix-filter": "nix-filter",
         "nixpkgs": [

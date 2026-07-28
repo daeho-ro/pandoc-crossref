@@ -104,14 +104,14 @@ pairDelim: ", "
 rangeDelim: "-"
 refDelim: ", "
 refIndexTemplate: $$i$$$$suf$$
-secHeaderDelim:
+secHeaderDelim: 
 secHeaderTemplate: $$i$$$$secHeaderDelim[n]$$$$t$$
 secLabels: arabic
 secPrefix:
 - sec.
 - secs.
 secPrefixTemplate: $$p$$ $$i$$
-sectionsDepth: 0
+sectionsDepth: "0"
 standalone: true
 subfigGrid: false
 subfigLabels: alpha a

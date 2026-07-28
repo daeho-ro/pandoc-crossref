@@ -3,10 +3,11 @@
   inputs = {
     haskellNix = {
       url = "github:input-output-hk/haskell.nix/17cc2e9e95aa6946bfcccc5a529cb7e9d78fe901";
-      inputs.hackage = {
-        url = "github:lierdakil/hackage.nix";
-        flake = false;
-      };
+      inputs.hackage.follows = "hackage";
+    };
+    hackage = {
+      url = "github:input-output-hk/hackage.nix";
+      flake = false;
     };
     nixpkgs.follows = "haskellNix/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -19,6 +20,7 @@
       flake-utils,
       haskellNix,
       nix-filter,
+      ...
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
