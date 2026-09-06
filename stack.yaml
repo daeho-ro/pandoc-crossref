@@ -152,10 +152,10 @@ extra-deps:
 - lpeg-1.1.0.1
 - lua-2.3.4
 - math-functions-0.3.4.4
-- microlens-0.4.14.0
-- microlens-ghc-0.4.15.1
-- microlens-mtl-0.2.1.0
-- microlens-th-0.4.3.17
+- microlens-0.5.0.0
+- microlens-ghc-0.4.15.2
+- microlens-mtl-0.2.1.1
+- microlens-th-0.4.3.18
 - microstache-1.0.3.1
 - mime-types-0.1.2.2
 - mlkem-0.2.3.0
@@ -165,7 +165,7 @@ extra-deps:
 - network-3.2.9.0
 - network-byte-order-0.1.8
 - network-uri-2.6.4.2
-- open-browser-0.3.0.1
+- open-browser-0.5.1.0
 - optparse-applicative-0.19.0.0
 - ordered-containers-0.2.4
 - os-string-2.0.11

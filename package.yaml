@@ -35,26 +35,26 @@ dependencies:
   pandoc-types: ">= 1.23 && < 1.24"
 _deps:
   containers: &containers { containers: ">=0.1 && <0.9" }
-  criterion: &criterion { criterion: ">=1.5.9.0 && <1.7" }
+  criterion: &criterion { criterion: ">=1.5.9 && <1.7" }
   data-default: &data-default { data-default: ">=0.4 && <0.9" }
   deepseq: &deepseq { deepseq: ">= 1.4 && < 1.6" }
   directory: &directory { directory: ">=1 && <1.4" }
   filepath: &filepath { filepath: ">=1.1 && <1.6" }
   gitrev: &gitrev { gitrev: ">= 1.3.1 && < 1.4" }
   hspec: &hspec { hspec: ">=2.4.4 && <3" }
-  microlens-ghc: &microlens-ghc { microlens-ghc: ">=0.4.3.10 && < 0.5.0.0" }
-  microlens-mtl: &microlens-mtl { microlens-mtl: ">=0.2.0.1 && <0.3.0.0" }
-  microlens-th: &microlens-th { microlens-th: ">=0.4.3.10 && < 0.5.0.0" }
-  microlens: &microlens { microlens: ">=0.4.12.0 && <0.5.0.0" }
+  microlens-ghc: &microlens-ghc { microlens-ghc: ">=0.4.3.10 && < 0.5" }
+  microlens-mtl: &microlens-mtl { microlens-mtl: ">=0.2.0.1 && <0.3" }
+  microlens-th: &microlens-th { microlens-th: ">=0.4.3.10 && < 0.5" }
+  microlens: &microlens { microlens: ">=0.4.12 && <0.6" }
   mtl: &mtl { mtl: ">=1.1 && <2.4" }
-  open-browser: &open-browser { open-browser: ">= 0.2 && < 0.4" }
+  open-browser: &open-browser { open-browser: ">= 0.2 && < 0.6" }
   optparse-applicative:
     &optparse-applicative { optparse-applicative: ">= 0.13 && < 0.20" }
   syb: &syb { syb: ">=0.4 && <0.8" }
   template-haskell:
-    &template-haskell { template-haskell: ">=2.7.0.0 && <3.0.0.0" }
+    &template-haskell { template-haskell: ">=2.7 && <3" }
   temporary: &temporary { temporary: ">= 1.2 && < 1.4" }
-  utility-ht: &utility-ht { utility-ht: ">=0.0.11 && <0.1.0" }
+  utility-ht: &utility-ht { utility-ht: ">=0.0.11 && <0.1" }
   ##############################################################################
   internal-lib-deps: &internal-lib-deps
     <<: *containers
